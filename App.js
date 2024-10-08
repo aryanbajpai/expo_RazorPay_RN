@@ -44,19 +44,11 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.dataBlock}>
-        <Text style={styles.title}>
-          React Native Expo App - RazorPay Payment
-        </Text>
-        <Text style={styles.textData}>
-          01. npx create-expo-app prjctNm --template (Blank)
-        </Text>
+        <Text style={styles.title}>React Native Expo App - RazorPay Payment</Text>
+        <Text style={styles.textData}>01. npx create-expo-app prjctNm --template (Blank)</Text>
         <Text style={styles.textData}>02. cd prjctNm</Text>
-        <Text style={styles.textData}>
-          03. npm install -D react-native-dotenv
-        </Text>
-        <Text style={styles.textData}>
-          04. npx expo install react-native-razorpay
-        </Text>
+        <Text style={styles.textData}>03. npm install -D react-native-dotenv</Text>
+        <Text style={styles.textData}>04. npx expo install react-native-razorpay</Text>
         <Text style={styles.textData}>05. npx expo prebuild</Text>
         <Text style={styles.textData}>06. cd android</Text>
         <Text style={styles.textData}>07. ./gradlew clean && cd ..</Text>
